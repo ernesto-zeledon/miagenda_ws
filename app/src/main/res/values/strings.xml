@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">miagenda</string>
     <string name="AppBarLabel">Agenda Básica v1.0</string>
+    <string name="delete_contact_dialog_message">¿Desea eliminar el contacto?</string>
+    <string name="yes_delete_contact">Sí</string>
+    <string name="no_delete_contact">No</string>
 </resources>

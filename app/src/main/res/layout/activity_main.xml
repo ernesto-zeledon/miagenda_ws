@@ -15,9 +15,7 @@
         android:layout_height="101dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:visibility="visible"
-        tools:srcCompat="@mipmap/agenda_one"
-        tools:visibility="visible" />
+        app:srcCompat="@mipmap/agenda_one" />
 
     <TextView
         android:id="@+id/textView"

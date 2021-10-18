@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Miagenda">
         <activity
+            android:name=".ModificarContacto"
+            android:exported="false" />
+        <activity
             android:name=".RegistrarContacto"
             android:exported="true" />
         <activity
@@ -22,5 +25,6 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
 </manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".ModificarContacto">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modificar Contacto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:text="Nombre Completo:" />
+
+    <EditText
+        android:id="@+id/txtNombreCompletoEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:ems="10"
+        android:hint="Nombre del Contacto"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNombreCompletoEditar"
+        android:text="Número de Teléfono:" />
+
+    <EditText
+        android:id="@+id/txtTelefonoEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:ems="10"
+        android:hint="0000-0000"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnGuardarContactoEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLlamarEditar"
+        android:text="Guardar Contacto" />
+
+    <Button
+        android:id="@+id/btnEliminarEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGuardarContactoEditar"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/btnRegresarEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEliminarEditar"
+        android:text="Regresar" />
+
+    <Button
+        android:id="@+id/btnLlamarEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTelefonoEditar"
+        android:text="Llamar" />
+</RelativeLayout>
