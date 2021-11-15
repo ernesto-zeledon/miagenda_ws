@@ -1,4 +1,4 @@
-package net.lrivas.miagenda;
+package net.lrivas.miagenda_ws;
 
 import android.content.Context;
 
