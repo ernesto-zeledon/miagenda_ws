@@ -40,7 +40,7 @@ public class ModificarContacto extends AppCompatActivity {
     EditText nombre, telefono;
     Button botonAgregar, botonRegresar, botonEliminar, botonLlamar;
     String id_contacto, nombre_contacto, telefono_contacto;
-    private static final int  CALL_PHONE_REQUEST_CODE = 100;
+    private static final int  CALL_PHONE_REQUEST_CODE = 101;
     Configuraciones objConfiguracion = new Configuraciones();
     String URL = objConfiguracion.urlWebServices;
 
@@ -51,6 +51,7 @@ public class ModificarContacto extends AppCompatActivity {
 
         nombre = (EditText) findViewById(R.id.txtNombreCompletoEditar);
         telefono = (EditText) findViewById(R.id.txtTelefonoEditar);
+
         botonAgregar = (Button) findViewById(R.id.btnGuardarContactoEditar);
         botonRegresar = (Button) findViewById(R.id.btnRegresarEditar);
         botonEliminar = (Button) findViewById(R.id.btnEliminarEditar);
@@ -203,8 +204,8 @@ public class ModificarContacto extends AppCompatActivity {
             regresar();
         } else {
             id_contacto = valoresAdicionales.getString("id_contacto");
-            nombre_contacto = valoresAdicionales.getString("nombre_contacto");
-            telefono_contacto = valoresAdicionales.getString("telefono_contacto");
+            nombre_contacto = valoresAdicionales.getString("nombre");
+            telefono_contacto = valoresAdicionales.getString("telefono");
             verContacto();
         }
     }

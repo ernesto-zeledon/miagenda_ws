@@ -5,6 +5,6 @@ public class Configuraciones {
     public String urlWebServices;
 
     public Configuraciones() {
-        this.urlWebServices = "http://172.20.10.7/ws_app/webservices02.php";
+        this.urlWebServices = "http://137.135.114.17/ws_app/webservices02.php";
     }
 }
